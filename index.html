@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+    <style>
+        .completed_task {
+            text-decoration: line-through;
+            color: gray;
+        }
+
+        /* .delete_btn {
+            display: none;
+        }
+
+        .complete_btn {
+            display: none;
+        }
+
+        li:hover .delete_btn {
+            display: inline;
+        }
+
+        li:hover .complete_btn {
+            display: inline;
+        } */
+    </style>
+</head>
+<body>
+    
+    <h1>To Do Task App</h1>
+
+    <input id="taskInput" type="text" placeholder="Enter Your Task">
+    <button onclick="createNewTask()">Add Task</button>
+
+    <ul id="taskList">
+
+    </ul>
+
+
+    <script src="js/to-do.js"></script>
+</body>
+</html>
